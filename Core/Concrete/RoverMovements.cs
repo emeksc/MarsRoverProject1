@@ -1,9 +1,9 @@
-﻿using Core.Concrete;
+﻿using Core.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Core.Abstract
+namespace Core.Concrete
 {
     public class RoverMovements
     {

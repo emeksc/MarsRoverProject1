@@ -7,6 +7,11 @@ namespace Core.Concrete
 {
     public class Plateau : IPlateau
     {
+        public Plateau(int x = 0, int y = 0)
+        {
+            this.X = x;
+            this.Y = y;
+        }
         public int X { get; set; }
         public int Y { get; set; }
         public bool IsReady { get; set; }
